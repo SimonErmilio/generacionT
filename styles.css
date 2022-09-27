@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: block;
+    justify-content: center;
+}
+.historia {
+    display: block;
+    background-color: #fff;
+    padding: 30px;
+    margin: 10px 40px;
+}
+.navegador {
+    display: block;
+    background: #000000;
+    height: 60px;
+    text-align: center;
+}
+
+.lista {
+    display: inline-flex;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 140px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+.historia p {
+    text-align: justify;
+    padding: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+}
+.imagen {
+    width: 300px;
+    height: 100px;
+}
+.link:hover {
+    color: aqua;
+}
